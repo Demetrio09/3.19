@@ -17,18 +17,18 @@ h1 {
     margin: 0 auto;
 }
 
-div #bio-image{
+#bio-image{
     font-size: 24px;
     text-align: left;
     float: left;
 }
 
-div #main-bio {
+#main-bio {
     float: left;
     width: 70%;
 }
 
-div #contact-info {
+#contact-info {
     float: left;
     width: 30%;
 }
