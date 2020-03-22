@@ -4,19 +4,36 @@
 }
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: 16px;
+    font-size: 16px;
+    background: rgba(243, 241, 152, 0.945);
+    margin: 30px;
 }
-h1 {
-    height: 20px;
-    padding: 10px;
-}
-div header {
-    background: lightgray;
+div .fixed {
     position: fixed;
+    top: 0;
+    left: 0;
+    background: lightgray;
+    padding: 20px;
+    top: 0px;
 }
-.fixed p {
-
+div h1 {
+    padding: 0px 0px 0px 120px;
 }
-.relative {
-
+div p {
+    padding: 20px;
+}
+div .relative {
+    background: lightgray;
+    position: relative;
+    padding: 40px;
+    z-index: 1;
+}
+div .absolute {
+    height: 50px;
+    width: 150px;
+    background: darkgray;
+    position: absolute;
+    top: 210px;
+    z-index: 2;
+    right: 20px;
 }
