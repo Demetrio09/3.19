@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: 16px;
+}
+h1 {
+    height: 20px;
+    padding: 10px;
+}
+div header {
+    background: lightgray;
+    position: fixed;
+}
+.fixed p {
+
+}
+.relative {
+
+}
